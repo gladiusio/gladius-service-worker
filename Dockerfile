@@ -1,6 +1,5 @@
 FROM node:8.15.1-alpine
 
-ENV SW_DOMAIN='example.com'
 ENV SW_CACHE_TAG='gladius-cache-v'
 ENV SW_USE_EDGE_NODES=false
 ENV SW_OBFUSCATE=false

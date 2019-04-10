@@ -1,3 +1,7 @@
+const WEBSITE = self.location.host
+const MASTERNODE = self.location.host.origin
+const MNLIST = 'https://'+ WEBSITE + '/masternode-cache-list'
+
 // service worker cache polyfill
 // importScripts('serviceworker-cache-polyfill.js')
 const mime = require("mime/lite")
